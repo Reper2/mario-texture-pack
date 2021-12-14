@@ -1,0 +1,10 @@
+body {
+	background-image: url("../nsmbw/background.png");
+	background-position: center center;
+    background-repeat: no-repeat no-repeat;
+    background-size: cover;
+}
+
+.SuperMario256 {
+  font-family: 'Super Mario 256', sans-serif;
+}
