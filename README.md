@@ -1,5 +1,5 @@
-# nsmbw-texture-pack
-My nsmbw Geometry Dash texture pack!
+# NSMBW Texture Pack
+My New Super Mario Bros. Wii Geometry Dash texture pack!
 
 <img src="assets/meta-img.png">
 
