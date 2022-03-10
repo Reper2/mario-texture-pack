@@ -1,7 +1,12 @@
+![GitHub Releases](https://img.shields.io/github/v/release/Reper2/mario-texture-pack?include_prereleases&sort=semver)
+![License](https://img.shields.io/github/license/Reper2/mario-texture-pack)
+[![YouTube Channel Subs](https://img.shields.io/youtube/channel/subscribers/UCofCDfLjs_TkiC-p0-k_9XA?color=%23FF6969&label=Reper2%20%5BGD%5D&logo=youtube&logoColor=%23FF0000&style=flat)](https://www.youtube.com/channel/UCofCDfLjs_TkiC-p0-k_9XA)
+[![Discord](https://img.shields.io/discord/771861170256085023?color=%237289DA&label=Official%20Server&logo=discord)](https://discord.gg/JGEjfm5Gn4)
+
 # Mario Texture Pack
 My Mario Geometry Dash texture pack!
 
-<img src="assets/meta-img.png">
+<img src="assets/logo.png">
 
 # v1
 I made this texture pack a month ago but since then, I haven't had any time to make a video for it. After recording a video for this texture pack last night, when I was about to put in a video editor, I realised it had no sound! Luckily I still had a couple of shorter recordings that I made for previews when I was still making the texture pack. Although the previews don't have the exact same music and textures as the texture pack has now, because those previews were recorded when I was still creating the texture pack.
@@ -53,4 +58,7 @@ https://www.mediafire.com/file/2u16sbyjw09hfuc/mario-texture-pack_v2.zip/file
 https://reper2.github.io/downloadable-files/tp/
 
 # v3
-Coming very soon...
+* New Icons
+* Created by spectre, stabilised and debugged by Reper2
+* Fixed demon key texture
+* Other additions and fixes
