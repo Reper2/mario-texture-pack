@@ -3,12 +3,13 @@
 		<title>Mario Texture Pack</title>
 		<meta charset="UTF-8">
 		<link href="assets/css/styles.css" rel="stylesheet" type="text/css">
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-1MM0E339JK"></script>
 		<script>
-		  window.dataLayer = window.dataLayer || [];
-		  function gtag(){dataLayer.push(arguments);}
-		  gtag('js', new Date());
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
 
-		  gtag('config', 'G-1MM0E339JK');
+			gtag('config', 'G-1MM0E339JK');
 		</script>
 		<link rel="shortcut icon" href="assets/favicon.ico">
 		<meta id="meta-title" property="og:title" content="Mario Texture Pack">
@@ -19,7 +20,7 @@
 		<meta property="twitter:card" content="summary_large_image">
 		<style>
 			body {
-				background-image: url("TEXTURE%20PACK/GJ_gradientBG-hd.png");
+				background-image: url("TEXTURE_PACK/GJ_gradientBG-hd.png");
 				background-position: center center;
 				background-repeat: no-repeat no-repeat;
 				background-size: cover;
@@ -35,6 +36,47 @@
 
 	<div id="everything" style="overflow: auto;">
 
+		<div class="popup" id="credits" style="display: none;">
+			<div id="credits1" class="subCredits" style="display: none;">
+				<img class="gdButton" src="assets/arrow-left.png" width="60vh" style="display: none; position: absolute; top: 45%; right: 75%" tabindex="0" onclick="page -= 1; loadCredits()">
+					<div class="brownBox center supercenter" style="width: 80vh; height: 43%; padding-top: 1.5%; padding-bottom: 3.5%;">
+						<h1>Owner/Creator</h1>
+						<h2 style="margin-bottom: 1.5%; margin-top: 1.5%" class="gdButton biggerShadow"><a href="https://gdbrowser.com/u/ReperGD2">ReperGD2</a></h2>
+						<img class="creditsicon" icon="https://gdbrowser.com/icon/ReperGD2?forceGD=1" height="30%;" style="margin-bottom: 7%" src="https://gdbrowser.com/icon/ReperGD2?forceGD=1"><br>
+						<a target="_blank" href="https://www.youtube.com/channel/UCofCDfLjs_TkiC-p0-k_9XA"><img src="assets/youtube.png" width="11%" class="sideSpace gdButton"></a>
+						<a target="_blank" href="https://discord.gg/aaVjjZtQts"><img src="assets/discord.png" width="11%" class="sideSpace gdButton"></a>
+						<a target="_blank" href="https://github.com/Reper2"><img src="assets/github.png" width="11%" class="sideSpace gdButton"></a>
+						<a target="_blank" href="https://www.twitch.tv/reper2_dev"><img src="assets/twitch.png" width="11%" class="sideSpace gdButton"></a>
+						<br>
+					</div>
+				<img class="gdButton" src="assets/arrow-right.png" width="60vh" style="position: absolute; top: 45%; left: 75%" tabindex="0" onclick="page += 1; loadCredits()">
+			</div><div id="credits2" class="subCredits" style="display: none">
+				<img class="gdButton" src="assets/arrow-left.png" width="60vh" style="position: absolute; top: 45%; right: 75%" tabindex="0" onclick="page -= 1; loadCredits()">
+					<div class="brownBox center supercenter" style="width: 80vh; height: 43%; padding-top: 1.5%; padding-bottom: 3.5%;">
+						<h1>Update v3 Creator</h1>
+						<h2 style="margin-bottom: 1.5%; margin-top: 1.5%" class="gdButton biggerShadow"><a href="https://gdbrowser.com/u/SpectreNoodle">SpectreNoodle</a></h2>
+						<img class="creditsicon" icon="https://gdbrowser.com/icon/SpectreNoodle?forceGD=1" height="30%;" style="margin-bottom: 7%" src="https://gdbrowser.com/icon/SpectreNoodle?forceGD=1"><br>
+						<a target="_blank" href="https://www.youtube.com/channel/UCh6mIXh6SbG8IlE4fxzmzYA"><img src="assets/youtube.png" width="11%" class="gdButton"></a>
+						<a target="_blank" href="https://twitter.com/SpectreNoodle"><img src="assets/twitter.png" width="11%" class="sideSpace gdButton"></a>
+						<a target="_blank" href="https://www.tiktok.com/@spectrenoodle"><img src="assets/tiktok.png" width="11%" class="sideSpace gdButton"></a>
+						<br>
+					</div>
+				<img class="gdButton" src="assets/arrow-right.png" width="60vh" style="position: absolute; top: 45%; left: 75%" tabindex="0" onclick="page += 1; loadCredits()">
+			</div><div id="credits3" class="subCredits" style="display: none">
+				<img class="gdButton" src="assets/arrow-left.png" width="60vh" style="position: absolute; top: 45%; right: 75%" tabindex="0" onclick="page -= 1; loadCredits()">
+				<div class="brownBox center supercenter" style="width: 80vh; height: 43%; padding-top: 1.5%; padding-bottom: 3.5%;">
+					<h1>v3 CP Icon</h1>
+					<h2 style="margin-bottom: 1.5%; margin-top: 1.5%" class="gdButton biggerShadow"><a href="https://gdbrowser.com/u/Tostone74">Tostone74</a></h2>
+					<img class="creditsicon" icon="https://gdbrowser.com/icon/Tostone74?forceGD=1" height="30%;" style="margin-bottom: 7%" src="https://gdbrowser.com/icon/Tostone74?forceGD=1"><br>
+					<a target="_blank" href="https://youtube.com/channel/UC28kt8NGLsZPSOBtrMbEOqg"><img src="assets/youtube.png" width="11%" class="gdButton"></a>
+					<a target="_blank" href="https://discord.gg/EYd333MREh"><img src="assets/discord.png" width="11%" class="sideSpace gdButton"></a>
+					<a target="_blank" href="https://twitch.tv/tostone74"><img src="assets/twitch.png" width="11%" class="sideSpace gdButton"></a>
+					<br>
+				</div>
+			</div><div id="closeCredits" class="center supercenter" style="width: 80vh; pointer-events: none; height: 43%;">
+				<img class="closeWindow gdButton" src="assets/close.png" width="14%" style="position: absolute; top: -24%; left: -7vh; pointer-events: all;" tabindex="0" onclick="$('#credits').hide(); page = 1;"></div>
+		</div>
+
 		<div class="popup" id="infoDiv" style="display: none;">
 			<div class="fancybox bounce center supercenter" style="width: 80vh">
 				<h2 class="smaller center" style="font-size: 5.5vh">Mario Texture Pack Info</h2>
@@ -47,7 +89,7 @@
 			<div style="height: 4.5%"></div>
 				<div class="searchresult" style="height: 19%; padding-top: 1.2%">
 					<h1 class="lessspaced blue" style="color: white">Latest</h1>
-					<h2 class="lessSpaced smaller inline gdButton"><cg>[GitHub]</cg> <a target="_blank" href="https://discordapp.com/users/771605101550632970">By Reper2</a></h2>
+					<h2 class="lessSpaced smaller inline gdButton"><cg>[GitHub]</cg> <a target="_blank" href="https://github.com/Reper2">By Reper2</a></h2>
 			
 					<div class="center" style="position:absolute; height: 10%; width: 12.5%; left: 3%; transform:translateY(-160%)">
 						<img class="gdButton spaced gdpslogo" src="assets/github.png" height="130%">
@@ -60,20 +102,20 @@
 
 				<div class="searchresult" style="height: 19%; padding-top: 1.2%">
 					<h1 class="lessspaced blue" style="color: white">v3</h1>
-					<h2 class="lessSpaced smaller inline gdButton"><cg>[Medifire]</cg> <a target="_blank" href="https://discordapp.com/users/771605101550632970">By Reper2</a></h2>
+					<h2 class="lessSpaced smaller inline gdButton"><cg>[Medifire]</cg> <a target="_blank" href="https://discordapp.com/users/771605101550632970">By Reper2</a>, <a target="_blank" href="https://discordapp.com/users/506993649750638607">spectre</a></h2>
 			
 					<div class="center" style="position:absolute; height: 10%; width: 12.5%; left: 3%; transform:translateY(-160%)">
 						<img class="gdButton spaced gdpslogo" src="assets/mediafire.svg" height="130%">
 					</div>
 					
 					<div class="center" style="position:absolute; right: 7%; transform:translateY(-150%); height: 10%">
-						<a target="_blank" href="https://www.mediafire.com/file/ngahzu8s64vz2io/mario-texture-pack_v3.zip/file"><img style="margin-bottom: 4.5%" class="valign gdButton" src="assets/view.png" height="105%"></a>
+						<a target="_blank" href="https://www.mediafire.com/file/k1tv7bytepfj039/mario-texture-pack_v3.zip/file"><img style="margin-bottom: 4.5%" class="valign gdButton" src="assets/view.png" height="105%"></a>
 					</div>
 				</div>
 
 				<div class="searchresult" style="height: 19%; padding-top: 1.2%">
 					<h1 class="lessspaced blue" style="color: white">v3</h1>
-					<h2 class="lessSpaced smaller inline gdButton"><cg>[GitHub]</cg> <a target="_blank" href="https://discordapp.com/users/771605101550632970">By Reper2</a></h2>
+					<h2 class="lessSpaced smaller inline gdButton"><cg>[GitHub]</cg> <a target="_blank" href="https://github.com/Reper2">By Reper2</a>, <a target="_blank" href="https://discordapp.com/users/506993649750638607">spectre</a></h2>
 			
 					<div class="center" style="position:absolute; height: 10%; width: 12.5%; left: 3%; transform:translateY(-160%)">
 						<img class="gdButton spaced gdpslogo" src="assets/github.png" height="130%">
@@ -86,7 +128,7 @@
 
 				<div class="searchresult" style="height: 19%; padding-top: 1.2%">
 					<h1 class="lessspaced blue" style="color: white">v3</h1>
-					<h2 class="lessSpaced smaller inline gdButton"><cg>[YouTube]</cg> <a target="_blank" href="https://discordapp.com/users/771605101550632970">By Reper2</a></h2>
+					<h2 class="lessSpaced smaller inline gdButton"><cg>[YouTube]</cg> <a target="_blank" href="https://www.youtube.com/channel/UCofCDfLjs_TkiC-p0-k_9XA">By Reper2 [GD]</a></h2>
 			
 					<div class="center" style="position:absolute; height: 10%; width: 12.5%; left: 3%; transform:translateY(-160%)">
 						<img class="gdButton spaced gdpslogo" src="assets/youtube.png" height="130%">
@@ -112,7 +154,7 @@
 
 				<div class="searchresult" style="height: 19%; padding-top: 1.2%">
 					<h1 class="lessspaced blue" style="color: white">v2</h1>
-					<h2 class="lessSpaced smaller inline gdButton"><cg>[GitHub]</cg> <a target="_blank" href="https://discordapp.com/users/771605101550632970">By Reper2</a></h2>
+					<h2 class="lessSpaced smaller inline gdButton"><cg>[GitHub]</cg> <a target="_blank" href="https://github.com/Reper2">By Reper2</a></h2>
 			
 					<div class="center" style="position:absolute; height: 10%; width: 12.5%; left: 3%; transform:translateY(-160%)">
 						<img class="gdButton spaced gdpslogo" src="assets/github.png" height="130%">
@@ -125,7 +167,7 @@
 
 				<div class="searchresult" style="height: 19%; padding-top: 1.2%">
 					<h1 class="lessspaced blue" style="color: white">v2</h1>
-					<h2 class="lessSpaced smaller inline gdButton"><cg>[YouTube]</cg> <a target="_blank" href="https://discordapp.com/users/771605101550632970">By Reper2</a></h2>
+					<h2 class="lessSpaced smaller inline gdButton"><cg>[YouTube]</cg> <a target="_blank" href="https://www.youtube.com/channel/UCofCDfLjs_TkiC-p0-k_9XA">By Reper2 [GD]</a></h2>
 			
 					<div class="center" style="position:absolute; height: 10%; width: 12.5%; left: 3%; transform:translateY(-160%)">
 						<img class="gdButton spaced gdpslogo" src="assets/youtube.png" height="130%">
@@ -151,7 +193,7 @@
 
 				<div class="searchresult" style="height: 19%; padding-top: 1.2%">
 					<h1 class="lessspaced blue" style="color: white">v1</h1>
-					<h2 class="lessSpaced smaller inline gdButton"><cg>[GitHub]</cg> <a target="_blank" href="https://discordapp.com/users/771605101550632970">By Reper2</a></h2>
+					<h2 class="lessSpaced smaller inline gdButton"><cg>[GitHub]</cg> <a target="_blank" href="https://github.com/Reper2">By Reper2</a></h2>
 			
 					<div class="center" style="position:absolute; height: 10%; width: 12.5%; left: 3%; transform:translateY(-160%)">
 						<img class="gdButton spaced gdpslogo" src="assets/github.png" height="130%">
@@ -164,7 +206,7 @@
 
 				<div class="searchresult" style="height: 19%; padding-top: 1.2%">
 					<h1 class="lessspaced blue" style="color: white">v1</h1>
-					<h2 class="lessSpaced smaller inline gdButton"><cg>[YouTube]</cg> <a target="_blank" href="https://discordapp.com/users/771605101550632970">By Reper2</a></h2>
+					<h2 class="lessSpaced smaller inline gdButton"><cg>[YouTube]</cg> <a target="_blank" href="https://www.youtube.com/channel/UCofCDfLjs_TkiC-p0-k_9XA">By Reper2 [GD]</a></h2>
 			
 					<div class="center" style="position:absolute; height: 10%; width: 12.5%; left: 3%; transform:translateY(-160%)">
 						<img class="gdButton spaced gdpslogo" src="assets/youtube.png" height="130%">
@@ -181,34 +223,38 @@
 		<div class="epicbox supercenter gs" style="width: 126vh; height: 80%; pointer-events: none"></div>
 		
 		<audio controls autoplay loop style="display: none">
-			<source src="menuLoop.mp3" type="audio/mpeg">
+			<source src="TEXTURE_PACK/menuLoop.mp3" type="audio/mpeg">
 		</audio>
 		
-		<div style="position:absolute; bottom: 0%; left: 0%; width: 100%; pointer-events: none">
-			<img class="cornerPiece" src="TEXTURE%20PACK/GJ_GameSheet03-uhd/GJ_sideArt_001.png" width="7%;">
+		<div style="position: absolute; bottom: 0%; left: 0%; width: 100%; pointer-events: none">
+			<img class="cornerPiece" src="TEXTURE_PACK/GJ_GameSheet03-uhd/GJ_sideArt_001.png" width="7%;">
 		</div>
 		
-		<div style="position:absolute; top: 0%; left: 0%; width: 100%; pointer-events: none; text-align: left;">
-			<img class="cornerPiece" src="TEXTURE%20PACK/GJ_GameSheet03-uhd/GJ_sideArt_001.png" width="7%;" style="transform: scaleX(1) scaleY(-1)">
+		<div style="position: absolute; top: 0%; left: 0%; width: 100%; pointer-events: none; text-align: left;">
+			<img class="cornerPiece" src="TEXTURE_PACK/GJ_GameSheet03-uhd/GJ_sideArt_001.png" width="7%;" style="transform: scaleX(1) scaleY(-1)">
 		</div>
 		
-		<div style="position:absolute; top: 0%; right: 0%; width: 100%; pointer-events: none; text-align: right;">
-			<img class="cornerPiece" src="TEXTURE%20PACK/GJ_GameSheet03-uhd/GJ_sideArt_001.png" width="7%;" style="transform: scaleX(-1) scaleY(-1)">
+		<div style="position: absolute; top: 0%; right: 0%; width: 100%; pointer-events: none; text-align: right;">
+			<img class="cornerPiece" src="TEXTURE_PACK/GJ_GameSheet03-uhd/GJ_sideArt_001.png" width="7%;" style="transform: scaleX(-1) scaleY(-1)">
 		</div>
 		
-		<div style="position:absolute; bottom: 0%; right: 0%; width: 100%; text-align: right;">
-			<img class="cornerPiece" src="TEXTURE%20PACK/GJ_GameSheet03-uhd/GJ_sideArt_001.png" width="7%;" style="transform: scaleX(-1)">
+		<div style="position: absolute; bottom: 0%; right: 0%; width: 100%; text-align: right;">
+			<img class="cornerPiece" src="TEXTURE_PACK/GJ_GameSheet03-uhd/GJ_sideArt_001.png" width="7%;" style="transform: scaleX(-1)">
 		</div>
 
 		<div class="center" style="position:absolute; top: 8%; left: 0%; right: 0%">
 			<h1 class="pre" id="header"><a onclick="downloadFile('index.html')">Mario Texture Pack</a></h1>
 		</div> 
 
-		<div style="position:absolute; bottom: 2%; right: 1%; text-align: right; width: 15%;">
+		<div style="position: absolute; bottom: 2%; right: 1%; text-align: right; width: 15%;">
 			<a onclick="window.location.reload()"><img class="gdButton" title="Refresh" src="assets/refresh.png" width="40%"></a>
 		</div>
+
+		<div style="position: absolute; top: 1.7%; left: 1%; text-align: left; width: 10%;">
+			<img id="creditsButton" class="gdButton" src="assets/credits.png" width="60%" onclick="loadCredits()" tabindex="0">
+		</div>
 		
-		<div style="position:absolute; top: 2.5%; right: 2%; width: 10%; text-align: right;">
+		<div style="position: absolute; top: 2.5%; right: 2%; width: 10%; text-align: right;">
 			<img class="gdButton" src="assets/smallinfo.png" width="32%" title="Page Info" onclick="$('#infoDiv').show()">
 		</div>
 		
@@ -234,4 +280,22 @@
 	<script type="text/javascript" src="scripts/sizecheck.js"></script>
 	<script type="text/javascript" src="scripts/dragscroll.js"></script>
 	<script type="text/javascript" src="scripts/download.js"></script>
+	<script>
+		let page = 1
+
+		let xButtonPos = '43%'
+		let lastPage
+
+		function loadCredits() {
+			$('.subCredits').hide()
+			$('#credits' + page).show()
+			$('#credits').show()
+			if (page == lastPage) $('#closeCredits').css('height', '52%')
+			else $('#closeCredits').css('height', xButtonPos)
+			$('.creditsicon:visible').each(function() {
+				$(this).attr('src', $(this).attr('icon'))
+			})
+
+		}
+	</script>
 </html>
