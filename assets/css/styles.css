@@ -1,4 +1,7 @@
-@font-face {font-family: Pusab; src: url('../Pusab.ttf')}
+@font-face {
+    font-family: 'Super Mario 256'; 
+    src: url('../SuperMario256.ttf')
+}
 
 body {
     margin: 0;
