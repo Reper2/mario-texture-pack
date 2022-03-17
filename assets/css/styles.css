@@ -195,6 +195,13 @@ a {
     padding-left: 0;
 }
 
+.brownBox {
+    border: 2.5vh solid transparent;
+    border-radius: 3vh;
+    background-color: #995533;
+    border-image: url('../brownbox.png') 10% round;
+}
+
 .fancybox {
     width: 69vh;
     padding: 1vh 3vh;
