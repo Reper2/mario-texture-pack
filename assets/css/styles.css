@@ -304,6 +304,18 @@ h3 {
     z-index: 2;
 }
 
+#searchBox {
+    background-color: rgb(173, 115, 76);
+    width: 122vh;
+    height: 75%; 
+    overflow-y: auto; 
+    overflow-x: hidden;
+}
+
+#searchBox::-webkit-scrollbar, #statusDiv::-webkit-scrollbar, #commentBox::-webkit-scrollbar { 
+    display: none; 
+}
+
 .searchResult {
     width: 80%;
     height: 32%;
