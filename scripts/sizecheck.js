@@ -4,7 +4,6 @@ $('body').append(`
 	<p>Your <cg>screen</cg> isn't <ca>wide</ca> enough to <cy>display</cy> this <cg>page</cg>.<br>
 	Please <cy>rotate</cy> your <cg>device</cg> <ca>horizontally</ca> or <cy>resize</cy> your <cg>window</cg> to be <ca>longer</ca>.
 	</p>
-	<p style="font-size: 1.8vh">Did I color too many words? I think I colored too many words.</p>
 	</div>
 `)
 
