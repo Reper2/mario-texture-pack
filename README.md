@@ -62,3 +62,4 @@ https://reper2.github.io/downloadable-files/tp/
 * Created by spectre, stabilised and debugged by Reper2
 * Fixed demon key texture
 * Other additions and fixes
+**Note: The mechakoopa robot leg that overlaps the smw-block cube __cannot__ be fixed as it will cause the leg to be too far up on the robot**
