@@ -6,7 +6,7 @@
 # Mario Texture Pack
 My Mario Geometry Dash texture pack!
 
-<img src="assets/logo.png">
+<img src="metaimg.png">
 
 # v1
 I made this texture pack a month ago but since then, I haven't had any time to make a video for it. After recording a video for this texture pack last night, when I was about to put in a video editor, I realised it had no sound! Luckily I still had a couple of shorter recordings that I made for previews when I was still making the texture pack. Although the previews don't have the exact same music and textures as the texture pack has now, because those previews were recorded when I was still creating the texture pack.
